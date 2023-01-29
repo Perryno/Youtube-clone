@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto' sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+#main {
+    width: 100%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sidebar-icon {
+    padding: 0.2em;
+    margin: 2.3em 1.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-icon p {
+    margin: 0;
+
+}
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+#logo {
+    height: 50%;
+}
+#search {
+    display: flex;
+    height: 50%;
+}
+
+#topbar-icons {
+    display: flex;
+    height: 2em;
+    cursor: pointer;
+}
+.topbar-icon { 
+    font-size: 2em;
+    padding: 0.0.3em;
+}
+#mic {
+    margin: 0 0.5em ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#mic ion-icon {
+font-size: 1.7em;
+}
+
+#buttone {
+    padding: 0 0.6em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    justify-content:space-evenly;
+    align-content: space-evenly;
+    margin-top: 0em;
+    flex-wrap: wrap;
+    margin-left: 2em;
+    height: 43em;
+}
+
+
+.thumb {
+    height: 14em;
+    margin: 2em;
+    margin-bottom: 0;
+    border-radius: 1em;
+}
+
+#content h3 {
+    font-size: 1em;
+    display:inline;
+    margin: 0;
+    margin-left: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.canale {
+    height: 36px;
+    margin-left:2em;
+    border-radius: 100%;
+}
+
+.titolo {
+    display: flex;
+    align-items: center;
+    height: 4em;
+}
+
+.colonna p {
+    margin: 0;
+    margin-left: 0.2em;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    
+}
+
+.colonna {
+    display: flex;
+    flex-direction: column;
+}
+
+#topbar a {
+   width: 0;
+}
+
+.cont {
+    height: min-content;
+}
+
